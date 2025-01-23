@@ -1,0 +1,27 @@
+.pdf-upload-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .select-pdf-btn {
+    padding: 12px 24px;
+    background-color: #3498db;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+  }
+  
+  .select-pdf-btn:hover {
+    background-color: #2980b9;
+  }
+  
+  input[type="file"] {
+    display: none; /* Hide the file input */
+  }
+  
